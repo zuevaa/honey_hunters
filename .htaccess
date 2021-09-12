@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^rest\/((?!.*\.php).*)\/(.+) rest/$1.php?q=$2 [L,QSA]
+RewriteRule ^rest\/((?!.*\.php).*) rest/$1.php [L,QSA]

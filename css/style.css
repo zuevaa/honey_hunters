@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font: Roboto;
+    font-size: 30px;
+}
+
+.header, .create, .footer {
+    background-color: #2D3136;
+    max-width: 100%;
+    padding-left: 10%;    
+    padding-right: 10%; 
+}
+
+.header {
+    padding-top: 54px;
+}
+
+.footer {
+    margin-top: 168px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+
+}
+
+.contact {
+    padding-top: 46px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.required-field::after {
+    content: " *";
+    color: red;
+}
+
+.form-label {
+    padding-top: 35px;
+    color: #D7D7D7;
+
+}
+
+.form-control, .form-control:focus {
+    background: transparent;
+    resize: none;
+    color: #FFFFFF;
+
+}
+
+
+.form-control.is-invalid {
+    background-image: none;
+}
+.btn-primary {
+    float: right;
+    margin-top: 82px;
+    margin-bottom: 97px;
+    background-color: #BE393B;
+    border-color: #BE393B;
+}
+.btn-primary:hover {
+    background-color: #BE393B;
+    border-color: #BE393B;
+}
+
+.message-title {
+    text-align: center;
+    margin-top: 82px;
+    margin-bottom: 71px;
+}
+.card {
+    padding: 0; 
+    min-height: 360px;
+}
+.card-body {
+    padding: 0; 
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-title {
+    background-color: #4B596C;
+    color: #FFFFFF;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}    
+
+.card-cell:nth-child(even) .card-title {
+    background-color: #58AD52;
+}
+
+.card-email{
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+.card-text {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card-cell:nth-child(even) .card-email {
+    color: #58AD52;
+}
+
+.ss {
+    border-radius: 50%;
+    border:3px solid #454648;
+    background-color: #37414E;
+    width: 50px;
+    height:50px;  
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
